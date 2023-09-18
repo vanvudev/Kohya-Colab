@@ -2,7 +2,6 @@ import argparse
 import csv
 import glob
 import os
-import sys
 
 from PIL import Image
 import cv2
@@ -14,7 +13,6 @@ import torch
 from pathlib import Path
 
 import library.train_util as train_util
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 # from wd14 tagger
 IMAGE_SIZE = 448
 
